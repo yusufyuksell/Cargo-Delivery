@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Kargoo</id>
+    <version>1.0.0</version>
+    <authors>Kargoo</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0-windows7.0">
+        <dependency id="FireSharp" version="2.0.4" exclude="Build,Analyzers" />
+        <dependency id="GMap.NET.Core" version="2.0.2" exclude="Build,Analyzers" />
+        <dependency id="GMap.NET.WinForms" version="2.0.2" exclude="Build,Analyzers" />
+        <dependency id="GMap.NET.Windows" version="2.0.1" exclude="Build,Analyzers" />
+        <dependency id="GMap.NET.WindowsForms" version="1.7.5" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Bson" version="2.13.2" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Driver" version="2.13.2" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Driver.Core" version="2.13.2" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net5.0-windows7.0/snappy32.dll" buildAction="Content" />
+      <files include="any/net5.0-windows7.0/snappy64.dll" buildAction="Content" />
+      <files include="any/net5.0-windows7.0/libzstd.dll" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\HP\source\repos\Kargoo\Kargoo\bin\Debug\net5.0-windows\Kargoo.runtimeconfig.json" target="lib\net5.0-windows7.0\Kargoo.runtimeconfig.json" />
+    <file src="C:\Users\HP\source\repos\Kargoo\Kargoo\bin\Debug\net5.0-windows\Kargoo.dll" target="lib\net5.0-windows7.0\Kargoo.dll" />
+    <file src="C:\Users\HP\.nuget\packages\mongodb.driver.core\2.13.2\runtimes\win\native\snappy32.dll" target="content\snappy32.dll" />
+    <file src="C:\Users\HP\.nuget\packages\mongodb.driver.core\2.13.2\runtimes\win\native\snappy32.dll" target="contentFiles\any\net5.0-windows7.0\snappy32.dll" />
+    <file src="C:\Users\HP\.nuget\packages\mongodb.driver.core\2.13.2\runtimes\win\native\snappy64.dll" target="content\snappy64.dll" />
+    <file src="C:\Users\HP\.nuget\packages\mongodb.driver.core\2.13.2\runtimes\win\native\snappy64.dll" target="contentFiles\any\net5.0-windows7.0\snappy64.dll" />
+    <file src="C:\Users\HP\.nuget\packages\mongodb.driver.core\2.13.2\runtimes\win\native\libzstd.dll" target="content\libzstd.dll" />
+    <file src="C:\Users\HP\.nuget\packages\mongodb.driver.core\2.13.2\runtimes\win\native\libzstd.dll" target="contentFiles\any\net5.0-windows7.0\libzstd.dll" />
+  </files>
+</package>

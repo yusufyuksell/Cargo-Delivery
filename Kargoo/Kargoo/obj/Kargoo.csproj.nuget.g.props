@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\HP\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.11.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\HP\.nuget\packages\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)mongodb.driver.core\2.13.2\contentFiles\any\netstandard2.1\Core\Compression\Snappy\lib\win\snappy32.dll" Condition="Exists('$(NuGetPackageRoot)mongodb.driver.core\2.13.2\contentFiles\any\netstandard2.1\Core\Compression\Snappy\lib\win\snappy32.dll')">
+      <NuGetPackageId>MongoDB.Driver.Core</NuGetPackageId>
+      <NuGetPackageVersion>2.13.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Core\Compression\Snappy\lib\win\snappy32.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)mongodb.driver.core\2.13.2\contentFiles\any\netstandard2.1\Core\Compression\Snappy\lib\win\snappy64.dll" Condition="Exists('$(NuGetPackageRoot)mongodb.driver.core\2.13.2\contentFiles\any\netstandard2.1\Core\Compression\Snappy\lib\win\snappy64.dll')">
+      <NuGetPackageId>MongoDB.Driver.Core</NuGetPackageId>
+      <NuGetPackageVersion>2.13.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Core\Compression\Snappy\lib\win\snappy64.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)mongodb.driver.core\2.13.2\contentFiles\any\netstandard2.1\Core\Compression\Zstandard\lib\win\libzstd.dll" Condition="Exists('$(NuGetPackageRoot)mongodb.driver.core\2.13.2\contentFiles\any\netstandard2.1\Core\Compression\Zstandard\lib\win\libzstd.dll')">
+      <NuGetPackageId>MongoDB.Driver.Core</NuGetPackageId>
+      <NuGetPackageVersion>2.13.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Core\Compression\Zstandard\lib\win\libzstd.dll</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)entityframework\6.3.0\buildTransitive\EntityFramework.props" Condition="Exists('$(NuGetPackageRoot)entityframework\6.3.0\buildTransitive\EntityFramework.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\HP\.nuget\packages\entityframework\6.3.0</PkgEntityFramework>
+    <PkgSystem_Data_SQLite_EF6 Condition=" '$(PkgSystem_Data_SQLite_EF6)' == '' ">C:\Users\HP\.nuget\packages\system.data.sqlite.ef6\1.0.113</PkgSystem_Data_SQLite_EF6>
+    <PkgMicrosoft_Bcl_Build Condition=" '$(PkgMicrosoft_Bcl_Build)' == '' ">C:\Users\HP\.nuget\packages\microsoft.bcl.build\1.0.14</PkgMicrosoft_Bcl_Build>
+  </PropertyGroup>
+</Project>
